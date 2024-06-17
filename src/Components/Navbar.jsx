@@ -1,4 +1,5 @@
 import React from 'react'
+import './Navbar.css'
 import logo from './../assets/logo.png'
 import arrow_icon from './../assets/arrow_icon.png'
 
@@ -14,10 +15,10 @@ function Navbar() {
             <li>Blog</li>
         </ul>
         <div className='nav-right'>
-            <select className="">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+            <select>
+                <option value="">USD</option>
+                <option value="">EUR</option>
+                <option value="">INR</option>
             </select>
             <button>
                 Sign up
